@@ -14,7 +14,7 @@ keywords = ["lancedb", "lance", "database", "vector", "search"]
 categories = ["database-implementations"]
 
 [workspace.dependencies]
-lance = { "version" = "=0.10.18", "features" = ["dynamodb"] }
+lance = { git = "https://github.com/drahoslavzan/lance.git", "version" = "=0.10.18-intel", "features" = ["dynamodb"] }
 lance-index = { "version" = "=0.10.18" }
 lance-linalg = { "version" = "=0.10.18" }
 lance-testing = { "version" = "=0.10.18" }
